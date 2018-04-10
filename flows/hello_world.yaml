@@ -1,0 +1,16 @@
+name: hello_world
+states:
+    say_hi:
+      component: meya.text
+      properties:
+        text: "Hello world!"
+    ask_name:
+        component: meya.input_string
+        properties:
+            text: "What's your name?"
+            output: name
+            scope: user
+    say_name:
+        component: meya.text
+        properties:
+            text: "It's nice to meet you, {{ user.name }}!"

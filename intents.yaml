@@ -1,0 +1,17 @@
+-   flow: greetings
+    intent: meya.greetings
+-   flow: hello_world
+    intent: meya.greetings
+    priority: 7
+-   flow: joke
+    intent: meya.keyword
+    settings:
+        keyword: joke
+-   flow: tutorial
+    intent: meya.keyword
+    settings:
+        keyword: tutorial
+-   flow: weather
+    intent: meya.keyword
+    settings:
+        keyword: weather

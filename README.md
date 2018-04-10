@@ -1,2 +1,0 @@
-# bobot
-Hack week!

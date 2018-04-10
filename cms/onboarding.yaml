@@ -1,0 +1,12 @@
+-   io: output
+    key: nope
+    language: en
+    tag: ''
+    type: string
+    value: 'No'
+-   io: input
+    key: yea
+    language: en
+    tag: ''
+    type: string
+    value: 'Yes'
